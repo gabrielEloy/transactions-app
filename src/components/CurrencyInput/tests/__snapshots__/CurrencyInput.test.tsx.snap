@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="numeric"
+  onChangeText={[Function]}
+  options={
+    Object {
+      "delimiter": ".",
+      "precision": 2,
+      "separator": ",",
+      "suffixUnit": "",
+      "unit": "R$ ",
+    }
+  }
+  rejectResponderTermination={true}
+  type="money"
+  underlineColorAndroid="transparent"
+  value=""
+/>
+`;

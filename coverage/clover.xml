@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1604359982449" clover="3.2.0">
+  <project timestamp="1604359982450" name="All files">
+    <metrics statements="126" coveredstatements="93" conditionals="28" coveredconditionals="18" methods="33" coveredmethods="21" elements="187" coveredelements="132" complexity="0" loc="126" ncloc="126" packages="12" files="21" classes="21"/>
+    <package name="transactionsApp">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/App.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.components.Button">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Button/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="17" count="20" type="stmt"/>
+      </file>
+      <file name="styles.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Button/styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.components.CurrencyInput">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/CurrencyInput/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.components.Divider">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Divider/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="10" type="stmt"/>
+      </file>
+      <file name="styles.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Divider/styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.components.Transaction">
+      <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Transaction/index.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="32" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="44" count="5" type="stmt"/>
+      </file>
+      <file name="styles.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Transaction/styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.components.Transaction.SwipeView">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Transaction/SwipeView/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+      </file>
+      <file name="styles.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/Transaction/SwipeView/styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.components.TransactionsList">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/TransactionsList/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="styles.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/components/TransactionsList/styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.contexts">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="TransactionsContext.ts" path="/home/gabrieleloy/Documentos/transactionsApp/src/contexts/TransactionsContext.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.helpers">
+      <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="9" methods="5" coveredmethods="5"/>
+      <file name="currency.ts" path="/home/gabrieleloy/Documentos/transactionsApp/src/helpers/currency.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="13" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="8" type="stmt"/>
+      </file>
+      <file name="initialState.ts" path="/home/gabrieleloy/Documentos/transactionsApp/src/helpers/initialState.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="strings.ts" path="/home/gabrieleloy/Documentos/transactionsApp/src/helpers/strings.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="85" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="16" count="61" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.screens.ManageTransactions">
+      <metrics statements="35" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="9" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/screens/ManageTransactions/index.tsx">
+        <metrics statements="34" coveredstatements="11" conditionals="6" coveredconditionals="0" methods="9" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+      </file>
+      <file name="styles.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/screens/ManageTransactions/styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.screens.ManageTransactions.TransactionsModal">
+      <metrics statements="35" coveredstatements="26" conditionals="6" coveredconditionals="3" methods="8" coveredmethods="5"/>
+      <file name="index.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/screens/ManageTransactions/TransactionsModal/index.tsx">
+        <metrics statements="34" coveredstatements="25" conditionals="6" coveredconditionals="3" methods="8" coveredmethods="5"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="9" type="stmt"/>
+        <line num="38" count="9" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="9" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="9" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="73" count="9" type="stmt"/>
+        <line num="78" count="9" type="stmt"/>
+      </file>
+      <file name="styles.tsx" path="/home/gabrieleloy/Documentos/transactionsApp/src/screens/ManageTransactions/TransactionsModal/styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="transactionsApp.src.themes">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="main.ts" path="/home/gabrieleloy/Documentos/transactionsApp/src/themes/main.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

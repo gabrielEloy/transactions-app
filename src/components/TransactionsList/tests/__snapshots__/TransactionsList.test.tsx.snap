@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <TransactionsList /> Should correctly render componet 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "date": "2020-08-17T19:53:14.283Z",
+        "debit": false,
+        "description": "teste",
+        "id": "2020-08-17T19:53:14.283Z-teste",
+        "value": Object {
+          "currency": "R$",
+          "value": 150,
+        },
+      },
+      Object {
+        "date": "2020-08-17T19:53:14.283Z",
+        "debit": true,
+        "description": "teste2",
+        "id": "2020-08-17T19:53:14.283Z-teste2",
+        "value": Object {
+          "currency": "R$",
+          "value": 350,
+        },
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  testID="transactionList"
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        collapsable={false}
+        forwardedRef={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onLayout={[Function]}
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "bottom": 0,
+              "flexDirection": "row-reverse",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "translateX": -10000,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderBottomRightRadius": 5,
+                "borderTopRightRadius": 5,
+                "height": 73,
+                "justifyContent": "center",
+                "opacity": 1,
+                "transform": Array [
+                  Object {
+                    "translateX": -10,
+                  },
+                  Object {
+                    "translateY": 6,
+                  },
+                ],
+                "width": 100,
+              }
+            }
+            testID="deleteTransaction"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FBFBFB",
+                }
+              }
+            >
+              Delete
+            </Text>
+          </View>
+          <View
+            onLayout={[Function]}
+          />
+        </View>
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          pointerEvents="auto"
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "translateX": -0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#393948",
+                  "borderRadius": 3,
+                  "elevation": 5,
+                  "flexDirection": "row",
+                  "height": 75,
+                  "shadowColor": "#000",
+                  "shadowOffset": Object {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.25,
+                  "shadowRadius": 3.84,
+                },
+                Object {
+                  "marginBottom": 10,
+                  "marginHorizontal": 10,
+                  "marginTop": 5,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <BVLinearGradient
+                colors={
+                  Array [
+                    4290707360,
+                    4280600626,
+                  ]
+                }
+                endPoint={
+                  Object {
+                    "x": 0.2,
+                    "y": 0.7,
+                  }
+                }
+                locations={null}
+                startPoint={
+                  Object {
+                    "x": 0.8,
+                    "y": 0,
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 50,
+                    "height": 45,
+                    "width": 45,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 4,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                adjustsFontSizeToFit={true}
+                style={
+                  Object {
+                    "color": "#FBFBFB",
+                    "fontFamily": "Exo-Medium",
+                    "fontSize": 20,
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                teste
+              </Text>
+              <Text
+                adjustsFontSizeToFit={true}
+                style={
+                  Object {
+                    "color": "#7A7A80",
+                    "fontFamily": "Exo-Medium",
+                    "fontSize": 12,
+                  }
+                }
+                testID="transactionDate"
+              >
+                17/08/2020, 4:53:14 pm
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                adjustsFontSizeToFit={true}
+                style={
+                  Object {
+                    "color": "#24C832",
+                  }
+                }
+                testID="transactionValue"
+              >
+                R$ 150,00
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        collapsable={false}
+        forwardedRef={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onLayout={[Function]}
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "bottom": 0,
+              "flexDirection": "row-reverse",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "translateX": -10000,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderBottomRightRadius": 5,
+                "borderTopRightRadius": 5,
+                "height": 73,
+                "justifyContent": "center",
+                "opacity": 1,
+                "transform": Array [
+                  Object {
+                    "translateX": -10,
+                  },
+                  Object {
+                    "translateY": 6,
+                  },
+                ],
+                "width": 100,
+              }
+            }
+            testID="deleteTransaction"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FBFBFB",
+                }
+              }
+            >
+              Delete
+            </Text>
+          </View>
+          <View
+            onLayout={[Function]}
+          />
+        </View>
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          pointerEvents="auto"
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "translateX": -0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#393948",
+                  "borderRadius": 3,
+                  "elevation": 5,
+                  "flexDirection": "row",
+                  "height": 75,
+                  "shadowColor": "#000",
+                  "shadowOffset": Object {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.25,
+                  "shadowRadius": 3.84,
+                },
+                Object {
+                  "marginBottom": 10,
+                  "marginHorizontal": 10,
+                  "marginTop": 5,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <BVLinearGradient
+                colors={
+                  Array [
+                    4294948021,
+                    4294919498,
+                  ]
+                }
+                endPoint={
+                  Object {
+                    "x": 0.2,
+                    "y": 0.7,
+                  }
+                }
+                locations={null}
+                startPoint={
+                  Object {
+                    "x": 0.8,
+                    "y": 0,
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 50,
+                    "height": 45,
+                    "width": 45,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 4,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                adjustsFontSizeToFit={true}
+                style={
+                  Object {
+                    "color": "#FBFBFB",
+                    "fontFamily": "Exo-Medium",
+                    "fontSize": 20,
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                teste2
+              </Text>
+              <Text
+                adjustsFontSizeToFit={true}
+                style={
+                  Object {
+                    "color": "#7A7A80",
+                    "fontFamily": "Exo-Medium",
+                    "fontSize": 12,
+                  }
+                }
+                testID="transactionDate"
+              >
+                17/08/2020, 4:53:14 pm
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 2,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                adjustsFontSizeToFit={true}
+                style={
+                  Object {
+                    "color": "#C0494C",
+                  }
+                }
+                testID="transactionValue"
+              >
+                R$ 350,00
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

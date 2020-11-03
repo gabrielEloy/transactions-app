@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Should render correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "red",
+      "borderBottomRightRadius": 5,
+      "borderTopRightRadius": 5,
+      "height": 73,
+      "justifyContent": "center",
+      "opacity": 1,
+      "transform": Array [
+        Object {
+          "translateX": -10,
+        },
+        Object {
+          "translateY": 6,
+        },
+      ],
+      "width": 100,
+    }
+  }
+  testID="deleteTransaction"
+>
+  <Text
+    style={
+      Object {
+        "color": "#FBFBFB",
+      }
+    }
+  >
+    Delete
+  </Text>
+</View>
+`;
